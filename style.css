@@ -1,26 +1,31 @@
 body {
     font-family: Gill Sans MT;
-    max-width: 900px;
+    max-width: 1000px;
+    margin = 1px;
 }
 
 nav {
     padding-left: 15px;
     height: 70px;
     display: flex;
+    font-size: 1.2rem;
 }
 
 .secondary-block {
     color: white;
-    background-color: rgb(151, 223, 198);
+    background-color:  rgb(90, 200, 180);
+    padding : 10px;
+    margin : 0px;
+
 }
 
 a {
     color: white;
 }
 
-nav h2 {
+nav h3 {
     margin: 0;
-    padding: 20px 0px 20px 15px;
+    padding: 20px 50px;
 }
 
 nav ul {
@@ -34,15 +39,14 @@ nav li {
     margin-left: 15px;
 }
 
+a {
+    text-decoration: none;
+}
 header {
+    float : center;
     text-align: center;
-}
-
-.content {
-    margin:0;
-}
-
-header h2 {
+    height: 300px;
+    padding-top : 70px;
 }
 
 header img {
@@ -52,38 +56,77 @@ header img {
     box-shadow: 3px 3px 6px rgb(170, 170, 170);
 }
 
+div#colonne3 {
+    display: flex;
+    flex-direction: column;
+    float : right;
+    width: 300px;
+    padding-bottom: 30px;
+}
+ H2#colonne3 {
+    padding = 0px;
+ }
 section{
     padding: 10px;
+    margin-bottom: 20px;
 }
 
-#xp h2, #education h2, #profile h2 {
+
+#xp h2, #education h2, #qualite h2 {
     text-transform: uppercase;
+    padding-left : 10px;
 }
 
 p, section H3 {
     margin: 0;
+    padding-left : 10px;
 }
+
 
 .description {
     text-align: justify;
-    margin : 20px;
+    margin : 20px 80px;
+    font-size: 1.05rem;
+    text-shadow:  rgb(90, 200, 180) 1px 0 10px;
 }
 
 #projets li {
     list-style: none;
     text-align: right;
-    font-style: italic;
+    font-size: 0.8rem;
+    padding-right : 35px;
 }
 
 .competences {
+    font-style: italic;
+    list-style: none;
+}
 
+.suite {
+    text-align: center;
+    color:rgb(90, 200, 180);
+    margin : 30px;
+}
+.competences li::before  {content: "•  "; color:rgb(90, 200, 180)}
+
+#education div {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
 }
 
 #education aside{
     float: right;
+    padding-right : 45px;
 }
 
 #education li {
     list-style: none;
     font-style: bold;
+    padding-left : 25px;
+    padding-bottom: 5px;
+}
+
+#qualites {
+    text-align: center;
+   
 }
