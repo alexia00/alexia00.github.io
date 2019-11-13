@@ -112,6 +112,7 @@ p, section H3 {
 #education div {
     font-size: 1.1rem;
     padding-bottom: 10px;
+    padding-bottom: 5px
 }
 
 #education aside{
@@ -123,7 +124,6 @@ p, section H3 {
     list-style: none;
     font-style: bold;
     padding-left : 25px;
-    padding-bottom: 5px;
 }
 
 #qualites {
